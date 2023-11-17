@@ -32,7 +32,7 @@ const server=app.listen(process.env.PORT,()=>{
 
 const io=socket(server,{
     cors:{
-        origin:"ks-chat.netlify.app",
+        origin:"https://ks-chat.netlify.app/",
         credentials:true,
     }
 });
